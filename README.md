@@ -1,4 +1,4 @@
-# Custom Export Site
+# Custom GrapesJS Export Site
 
 Tento ZIP obsahuje vaši exportovanou GrapesJS stránku (index.html a style.css) upravenou pro rychlé nasazení.
 
