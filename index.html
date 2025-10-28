@@ -1,39 +1,427 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Home</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="index,follow">
-  <meta name="generator" content="GrapesJS Studio">
-  <style data-project-fonts="true">
-@font-face {
-      font-family: Inter;
-      src: url('https://fonts.gstatic.com/s/inter/v20/UcCo3FwrK3iLTfvgaQc78lA2.woff2');
-      font-weight: 100 900;
-    }
-  
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio grafického designéra a webového vývojáře - Graphic Design, Webdesign, Branding, SEO">
+    <meta name="robots" content="index,follow">
+    <title>Ruzicka Jakub - Portfolio | Graphic Design & Web Development</title>
+    
+    <!-- Fonts -->
+    <style>
+        @font-face {
+            font-family: Inter;
+            src: url('https://fonts.gstatic.com/s/inter/v20/UcCo3FwrK3iLTfvgaQc78lA2.woff2');
+            font-weight: 100 900;
+        }
+        @font-face {
+            font-family: Manrope;
+            src: url('https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRsgW7S9XdZN8.woff2');
+            font-weight: 200 800;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="./manifest.json">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <h2>RJ</h2>
+                </a>
+                
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Domů</a></li>
+                    <li><a href="#services">Služby</a></li>
+                    <li><a href="#portfolio">Projekty</a></li>
+                    <li><a href="#about">O mně</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+                
+                <div class="lang-switch">
+                    <button class="lang-btn active" data-lang="cs">CZ</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-    @font-face {
-      font-family: Inter;
-      src: url('https://fonts.gstatic.com/s/inter/v20/UcCm3FwrK3iLTcvnYwYZ90A2B58.woff2');
-      font-style: italic;
-font-weight: 100 900;
-    }
-  
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Tvorba, která přitáhuje pozornost</h1>
+                    <p class="hero-subtitle">Graphic Design | Webdesign | Branding | SEO</p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">Prohlédnout si projekty</a>
+                        <a href="#contact" class="btn btn-secondary">Kontaktovat mě</a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <svg class="hero-svg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="200" cy="200" r="150" fill="url(#gradient1)" opacity="0.2"/>
+                        <rect x="100" y="120" width="200" height="160" rx="10" fill="url(#gradient1)" opacity="0.7"/>
+                        <path d="M150 180 L180 220 L250 150" stroke="white" stroke-width="8" fill="none" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    @font-face {
-      font-family: Manrope;
-      src: url('https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRsgW7S9XdZN8.woff2');
-      font-weight: 200 800;
-    }
-</style>
-  <link rel="stylesheet" href="./style.css">
-  </head>
-  <body id="ihtf"><div id="iq615l" class="navbar"><div data-gjs="navbar" id="iior1j" class="navbar-cnt"><a href="/" id="i5oaqd" class="navbar-brand"><div id="iixa7u"><h2 id="iyz0u6">RJ</h2></div></a><div id="iolu3z" class="navbar-menu-toggle"><div data-type-icon id="i82o3f" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M2 2h8M2 6h8m-8 4h8"></path></svg></div></div><div data-gjs="navbar-items" id="ieo412" class="navbar-items-c"><nav id="ir89yc" class="navbar-menu-nav"><a id="ilmusq">Home</a><a id="ikdp7">About</a><a id="i1r5z">Contact</a></nav></div></div></div><section id="iyp5" class="gjs-section"><div id="iyox" class="gjs-container"><div data-type-role="flex-row" id="ivof" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ie5f" class="gjs-plg-flex-column"><h1 id="i4tkr">RUZICKA<br data-gs-ib=""/>JAKUB</h1><a id="ifjoh" class="gjs-link-box"><div id="ian75">mail@ruzickajakub.cz</div><div data-type-icon id="ih6oh" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="currentColor" d="M4 4.085V10.5a2.5 2.5 0 0 0 2.336 2.495L6.5 13h4.414A1.5 1.5 0 0 1 9.5 14H6a3 3 0 0 1-3-3V5.5a1.5 1.5 0 0 1 1-1.415M11.5 2A1.5 1.5 0 0 1 13 3.5v7a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 5 10.5v-7A1.5 1.5 0 0 1 6.5 2zm0 1h-5a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5"></path></svg></div></a></div><div data-type-role="flex-column" id="iqvw" class="gjs-plg-flex-column"><img id="iv2wn" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/7091231e-9571-458e-a79b-d47e0c83e80b__lena-5.webp"/><span id="im13y">I’m visual designer who blends creativity and strategy into every project. Over the last 8+ years, I’ve worked across branding, product design, and digital art — creating meaningful visuals for brands and people worldwide.</span></div></div></div></section><section id="ijxck" class="gjs-section"><div class="gjs-container"><div data-type-role="flex-row" id="iz9gv" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ijkxv" class="gjs-plg-flex-column"><h1 id="i1bcf">Work</h1></div></div><div data-type-role="flex-row" id="ij5ox" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ie33q" class="gjs-plg-flex-column"><h1 id="itt22">Dreamscapes</h1><img id="iqc0c" src="https://cdn.grapesjs.com/workspaces/cmh884arm2nz4duap9tf0dmfu/assets/7a44ceaa-1a4c-4e44-8734-0bf4d4452437__a-photograph-of-a-monolithic-stone-struc7bjogt7lrj2r4uzvs2ijrwlg0oydnbspgszjtqmlil1w.jpeg" class="gjs-t-border"/></div><div data-type-role="flex-column" id="i5kiv" class="gjs-plg-flex-column"><h1 id="ib9zk">Pulse Motion</h1><img id="iqc0c-4" src="https://cdn.grapesjs.com/workspaces/cmh884arm2nz4duap9tf0dmfu/assets/ffbb67d1-a9c4-4c91-9536-290f30039ff2__freepikthe-style-is-soft-plain-illustration-with-fluid-pa90035.jpeg" class="gjs-t-border"/></div></div><div data-type-role="flex-row" id="i49hb" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ieufj" class="gjs-plg-flex-column"><h1 id="ivdo7">Flow Studio</h1><img id="iqc0c-5" src="https://cdn.grapesjs.com/workspaces/cmh884arm2nz4duap9tf0dmfu/assets/0334590a-6d93-484a-9c17-9d650834a7e5__freepikthe-style-is-soft-plain-illustration-with-fluid-pa90033.jpeg" class="gjs-t-border"/></div><div data-type-role="flex-column" id="iuqai" class="gjs-plg-flex-column"><h1 id="ihsfk">GreenMark</h1><img id="iqc0c-4-2" src="https://cdn.grapesjs.com/workspaces/cmh884arm2nz4duap9tf0dmfu/assets/ffbb67d1-a9c4-4c91-9536-290f30039ff2__freepikthe-style-is-soft-plain-illustration-with-fluid-pa90035.jpeg" class="gjs-t-border"/></div></div></div></section><section id="iawlf" class="gjs-section"><div class="gjs-container"><div data-type-role="flex-row" id="ibdtm" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ioq1g" class="gjs-plg-flex-column"><h1 id="i8uif">About.</h1><span id="i2sah">I collaborate with brands, agencies, and independent creators to bring ideas to life through thoughtful design. My focus areas include digital storytelling, product design, and visual identity.</span></div><div data-type-role="flex-column" id="idb68" class="gjs-plg-flex-column"></div></div><div data-type-role="flex-row" id="ixlyq" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="igtgc" class="gjs-plg-flex-column"><img id="i4q0l" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/00325cd9-d201-4dfc-8ce9-03fd73914f5d__lena-2.webp" class="gjs-t-border"/></div><div data-type-role="flex-column" id="imgw5" class="gjs-plg-flex-column"><span id="ijnrc">Design is more than visuals — it’s about clarity, impact, and connection. I approach every project with care, ensuring it communicates the right story and leaves a lasting impression.</span></div></div></div></section><section id="i4bac" class="gjs-section"><div id="ivs9j" class="gjs-container"><div id="i2fjb">Linkedin Twitter Behance</div><h1 id="iuuay">Looking for a creative partner to help shape your next project? I’d love to collaborate. Let’s turn your vision into something inspiring and timeless.</h1><div data-type-role="flex-row" id="ityzk" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ik5ea" class="gjs-plg-flex-column"><a id="iyeh2" href="#" class="gjs-t-link gjs-t-border">Start a Project</a><div data-type-role="flex-row" id="iaao4" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ifeve" class="gjs-plg-flex-column"><div data-type-icon id="izf5a" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12"></path></svg></div><div id="isv5y">Available for new collaborations.</div></div></div></div></div><div data-type-role="flex-row" id="iyavz" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="i5g8k" class="gjs-plg-flex-column"><h1 id="i1xwm">hello@Lena.com</h1></div><div data-type-role="flex-column" id="imwy1" class="gjs-plg-flex-column"><h1 id="i57k0v">Designed &amp; Developed</h1><h1 id="i3lce">All rights reserved</h1></div><div data-type-role="flex-column" id="ix16d" class="gjs-plg-flex-column"><h1 id="im1i8g">GRAP ©2025</h1></div></div></div></section><script>var items = document.querySelectorAll('#iolu3z');
-          for (var i = 0, len = items.length; i < len; i++) {
-            (function(){
-var n,t=this,e='gjs-collapse',a='max-height',o=0,i=function(){var n=document.createElement('void'),t={transition:'transitionend',OTransition:'oTransitionEnd',MozTransition:'transitionend',WebkitTransition:'webkitTransitionEnd'};for(var e in t)if(void 0!==n.style[e])return t[e]}(),r=function(n){o=1;var t=function(n){var t=window.getComputedStyle(n),e=t.display,o=parseInt(t[a]);if('none'!==e&&0!==o)return n.offsetHeight;n.style.height='auto',n.style.display='block',n.style.position='absolute',n.style.visibility='hidden';var i=n.offsetHeight;return n.style.height='',n.style.display='',n.style.position='',n.style.visibility='',i}(n),e=n.style;e.display='block',e.transition="".concat(a," 0.25s ease-in-out"),e.overflowY='hidden',''==e[a]&&(e[a]=0),0==parseInt(e[a])?(e[a]='0',setTimeout((function(){e[a]=t+'px'}),10)):e[a]='0'};e in t||t.addEventListener('click',(function(e){if(e.preventDefault(),!o){var l=t.closest("[data-gjs=navbar]"),c=null==l?void 0:l.querySelector("[data-gjs=navbar-items]");c&&r(c),n||(null==c||c.addEventListener(i,(function(){o=0;var n=c.style;0==parseInt(n[a])&&(n.display='',n[a]='')})),n=1)}})),t[e]=1
-}.bind(items[i]))();
-          }</script></body>
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Služby</h2>
+            <p class="section-subtitle">Komplexní portfolio služeb pro vaše projekty</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Graphic Design</h3>
+                    <p>Logo, tiskoviny, vizuální identity</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Webdesign</h3>
+                    <p>Moderní a responzivní webové stránky</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">📐</div>
+                    <h3>WireFrame & Projektové Plány</h3>
+                    <p>Návrh struktury a funkčnosti před vývojem</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🌟</div>
+                    <h3>Branding Services</h3>
+                    <p>Komplexní budování značky</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3>SEO Optimalizace</h3>
+                    <p>Zvýšení viditelnosti ve vyhledávačích</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>UI & UX Concept</h3>
+                    <p>Uživatelsky příjemné a intuitivní rozhraní</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🗂️</div>
+                    <h3>Project Structure Visualizace</h3>
+                    <p>Přehledné mapování architektury projektu</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">📢</div>
+                    <h3>Marketing Promo</h3>
+                    <p>Marketingové kampaně a promo materiály</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>APP Structure Visual Map</h3>
+                    <p>Návrh struktury mobilních aplikací</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <p class="section-subtitle">Vybrané projekty a realizace</p>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Všechny</button>
+                <button class="filter-btn" data-filter="webdesign">Webdesign</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+                <button class="filter-btn" data-filter="app">Aplikace</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="webdesign branding">
+                    <div class="portfolio-image">
+                        <img src="https://cdn.grapesjs.com/workspaces/cmh884arm2nz4duap9tf0dmfu/assets/7a44ceaa-1a4c-4e44-8734-0bf4d4452437__a-photograph-of-a-monolithic-stone-struc7bjogt7lrj2r4uzvs2ijrwlg0oydnbspgszjtqmlil1w.jpeg" alt="Dreamscapes">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Dreamscapes</h3>
+                        <p>Kreativní webová prezentace</p>
+                        <div class="portfolio-tags">
+                            <span>Web</span>
+                            <span>Design</span>
+                            <span>UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="graphic branding">
+                    <div class="portfolio-image">
+                        <img src="https://cdn.grapesjs.com/workspaces/cmh884arm2nz4duap9tf0dmfu/assets/ffbb67d1-a9c4-4c91-9536-290f30039ff2__freepikthe-style-is-soft-plain-illustration-with-fluid-pa90035.jpeg" alt="Pulse Motion">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Pulse Motion</h3>
+                        <p>Brand identity a vizuální styl</p>
+                        <div class="portfolio-tags">
+                            <span>Branding</span>
+                            <span>Logo</span>
+                            <span>Print</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="webdesign app">
+                    <div class="portfolio-image">
+                        <img src="https://cdn.grapesjs.com/workspaces/cmh884arm2nz4duap9tf0dmfu/assets/0334590a-6d93-484a-9c17-9d650834a7e5__freepikthe-style-is-soft-plain-illustration-with-fluid-pa90033.jpeg" alt="Flow Studio">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Flow Studio</h3>
+                        <p>Aplikace pro kreativní workflow</p>
+                        <div class="portfolio-tags">
+                            <span>App</span>
+                            <span>UI</span>
+                            <span>Prototyp</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="branding graphic">
+                    <div class="portfolio-image">
+                        <img src="https://cdn.grapesjs.com/workspaces/cmh884arm2nz4duap9tf0dmfu/assets/ffbb67d1-a9c4-4c91-9536-290f30039ff2__freepikthe-style-is-soft-plain-illustration-with-fluid-pa90035.jpeg" alt="GreenMark">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>GreenMark</h3>
+                        <p>Ekologická značka a marketing</p>
+                        <div class="portfolio-tags">
+                            <span>Eco</span>
+                            <span>Brand</span>
+                            <span>Marketing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">O mně</h2>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/00325cd9-d201-4dfc-8ce9-03fd73914f5d__lena-2.webp" alt="Jakub Růžička">
+                </div>
+                
+                <div class="about-text">
+                    <p>Jsem vizuální designér, který spojuje kreativitu a strategii v každém projektu. Během posledních 8+ let jsem pracoval napříč brandingem, produktovým designem a digitálním uměním — vytvářel jsem smysluplné vizuály pro značky a lidi po celém světě.</p>
+                    
+                    <p>Spolupracuji s firmami, agenturami a nezávislými tvůrci, abych přivedl nápady k životu prostřednictvím promyšleného designu. Zaměřuji se na digitální storytelling, produktový design a vizuální identitu.</p>
+                    
+                    <div class="skills">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Graphic Design</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>UI/UX Design</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>SEO Optimalizace</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn btn-primary" download>Stáhnout CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <h2 class="section-title">Proces práce</h2>
+            <p class="section-subtitle">Jak spolupracujeme na vašem projektu</p>
+            
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <h3>Konzultace</h3>
+                    <p>Probíráme váš projekt a cíle</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <h3>Návrh</h3>
+                    <p>Vytvářím strukturu a koncept</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <h3>Realizace</h3>
+                    <p>Design a vývoj řešení</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <h3>Předání</h3>
+                    <p>Finalizace a předání projektu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Kontakt</h2>
+            <p class="section-subtitle">Máte projekt? Pojďme spolu tvořit!</p>
+            
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Jméno *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Předmět *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Vyberte předmět</option>
+                                <option value="quote">Cenová nabídka</option>
+                                <option value="collaboration">Spolupráce</option>
+                                <option value="inquiry">Dotaz</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Zpráva *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">Odeslat zprávu</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>📞 Telefon</h4>
+                        <p>+420 XXX XXX XXX</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h4>✉️ Email</h4>
+                        <p>mail@ruzickajakub.cz</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h4>📍 Adresa</h4>
+                        <p>Praha, Česká republika</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h4>🌐 Sociální sítě</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="#" aria-label="Behance">Behance</a>
+                            <a href="#" aria-label="Instagram">Instagram</a>
+                            <a href="#" aria-label="GitHub">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>RJ</h3>
+                    <p>Design je víc než vizuál — je to jasnost, dopad a spojení.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Rychlé odkazy</h4>
+                    <ul>
+                        <li><a href="#home">Domů</a></li>
+                        <li><a href="#services">Služby</a></li>
+                        <li><a href="#portfolio">Projekty</a></li>
+                        <li><a href="#about">O mně</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Sociální sítě</h4>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn">LI</a>
+                        <a href="#" aria-label="Behance">BE</a>
+                        <a href="#" aria-label="Instagram">IG</a>
+                        <a href="#" aria-label="GitHub">GH</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Růžička Jakub. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./scripts/app.js"></script>
+</body>
 </html>
