@@ -1,1 +1,427 @@
-* { box-sizing: border-box; } body {margin: 0;}:root{--gjs-t-color-primary:#cf549e;--gjs-t-color-secondary:#b9227d;--gjs-t-color-accent:#ffb347;--gjs-t-color-success:#28a745;--gjs-t-color-warning:#ffc107;--gjs-t-color-error:#dc3545;}.gjs-t-body{background-color:inherit;color:inherit;font-size:1rem;line-height:1.75rem;font-family:Arial, Helvetica, sans-serif;}.gjs-t-h1{color:var(--gjs-t-color-secondary);font-size:1.5rem;line-height:2.5rem;}.gjs-t-h2{color:#601843;font-size:1.2rem;line-height:1.75rem;}.gjs-t-button{background-color:var(--gjs-t-color-primary);color:white;border-radius:0.3rem;}.gjs-t-link{color:var(--gjs-t-color-primary);text-decoration:underline;}.gjs-t-border{border-radius:1rem;border-color:#e0e0e0;}.gjs-container{width:90%;margin:0 auto;max-width:1200px;}.gjs-section{display:flex;padding:50px 0;}#iyp5{border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-bottom-style:solid;border-top-color:rgba(226, 226, 226, 1);border-right-color:rgba(226, 226, 226, 1);border-bottom-color:rgba(226, 226, 226, 1);border-left-color:rgba(226, 226, 226, 1);padding-top:100px;}.gjs-plg-flex-column{flex-grow:1;}#ie5f{flex-basis:50%;}#iqvw{flex-basis:50%;display:flex;justify-content:flex-end;flex-direction:column;padding-top:40px;}.gjs-plg-flex-row{display:flex;align-items:stretch;flex-wrap:nowrap;}#ivof{width:100%;}#i4tkr{font-size:120px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;line-height:110px;font-family:Manrope;}#iv2wn{width:150px;margin-left:auto;}#im13y{font-size:30px;margin-top:50px;}.gjs-link-box{color:inherit;display:inline-block;vertical-align:top;padding:10px;max-width:100%;text-decoration:none;}#ifjoh{display:flex;width:240px;align-items:center;margin-top:60px;cursor:pointer;padding-left:0px;}.gjs-icon{display:inline-block;text-decoration:none;color:inherit;vertical-align:middle;fill:currentColor;width:50px;height:50px;}#ih6oh{width:30px;height:30px;}#ian75{padding:10px;font-weight:600;font-size:20px;}#ijxck{border-top-color:rgba(226, 226, 226, 1);border-right-color:rgba(226, 226, 226, 1);border-bottom-color:rgba(226, 226, 226, 1);border-left-color:rgba(226, 226, 226, 1);border-bottom-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;}#ioq1g{flex-basis:50%;}#idb68{flex:1 0 50%;display:flex;align-items:flex-start;justify-content:flex-end;}#ibdtm{width:100%;}#i8uif{font-weight:600;font-size:40px;margin-top:0px;margin-bottom:35px;font-family:Manrope;}#iyeh2{padding:10px;display:block;width:180px;padding-top:15px;padding-right:15px;padding-bottom:15px;padding-left:15px;text-align:center;text-decoration:none;background-color:rgba(255, 255, 255, 1);color:black;font-weight:500;font-size:15px;cursor:pointer;}#ie33q{flex-basis:50%;position:relative;}#ij5ox{width:100%;gap:22px;margin-top:22px;}#iqc0c{width:100%;}#itt22{font-weight:600;font-size:35px;position:absolute;left:35px;bottom:25px;color:white;}#ib9zk{font-weight:600;font-size:35px;position:absolute;left:35px;bottom:25px;color:white;}#iqc0c-4{width:100%;}#i5kiv{flex-basis:50%;position:relative;}#ivdo7{font-weight:600;font-size:35px;position:absolute;left:35px;bottom:25px;color:white;}#iqc0c-5{width:100%;}#ieufj{flex-basis:50%;position:relative;}#ihsfk{font-weight:600;font-size:35px;position:absolute;left:35px;bottom:25px;color:white;}#iqc0c-4-2{width:100%;}#iuqai{flex-basis:50%;position:relative;}#i49hb{width:100%;gap:22px;margin-top:22px;}#i1bcf{font-weight:600;font-size:40px;font-family:Manrope;}#ijkxv{flex-basis:50%;}#iz9gv{width:100%;align-items:center;justify-content:space-between;}#i2sah{font-size:30px;}#igtgc{flex-basis:50%;text-align:right;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;}#imgw5{flex-basis:50%;display:flex;align-items:center;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;}#ixlyq{width:100%;gap:40px;margin-top:70px;}#i4q0l{color:black;width:80%;}#ijnrc{font-size:28px;display:block;}#i4bac{background-color:BLACK;padding-bottom:30px;color:white;}#i2fjb{padding:10px;font-weight:600;font-size:18px;text-align:right;}#iuuay{display:flex;flex-direction:column;font-size:35px;margin-bottom:40px;background:linear-gradient(90deg, #fff, #5F5F5F, #5F5F5F);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;undefined:undefined;color:transparent;font-family:Manrope;}#ik5ea{flex-basis:100%;display:flex;gap:45px;}#ityzk{width:100%;}#ifeve{flex-basis:100%;display:flex;align-items:center;}#iaao4{width:100%;}#izf5a{color:white;width:12px;height:12px;}#isv5y{padding:10px;font-weight:600;font-size:18px;}#i5g8k{flex:0 0 20%;}#imwy1{flex:0 0 20%;}#ix16d{flex:0 0 20%;}#iyavz{width:100%;margin-top:80px;justify-content:space-between;font-size:11px;}#i3lce{margin-top:8px;margin-bottom:8px;}#i1xwm{font-weight:600;margin-top:8px;margin-bottom:8px;}#i57k0v{margin-top:8px;margin-bottom:8px;white-space:nowrap;}#im1i8g{margin-top:8px;margin-bottom:8px;}#i82o3f{width:55px;height:56px;}.navbar-menu-toggle{margin:10px 0;padding:5px 10px;display:none;cursor:pointer;}.navbar-menu-nav{padding:10px 0;display:flex;gap:20px;}.navbar-cnt{max-width:950px;margin:0 auto;width:95%;display:flex;justify-content:space-between;flex-wrap:wrap;}.navbar{background-color:#222;color:#ddd;min-height:50px;width:100%;}.navbar-container{max-width:950px;margin:0 auto;width:95%;}.navbar-items-c{display:inline-block;float:right;}.navbar-container::after{content:"";clear:both;display:block;}.navbar-brand{vertical-align:top;display:inline-block;padding:5px;min-height:50px;min-width:50px;color:inherit;text-decoration:none;}.navbar-menu{padding:10px 0;display:block;float:right;margin:0;}.navbar-menu-link{margin:0;color:inherit;text-decoration:none;display:inline-block;padding:10px 15px;}.navbar-burger{margin:10px 0;width:45px;padding:5px 10px;display:none;float:right;cursor:pointer;}.navbar-burger-line{padding:1px;background-color:white;margin:5px 0;}#iq615l{background-color:rgba(255, 255, 255, 1);color:rgba(0, 0, 0, 1);font-weight:500;border-top-color:rgba(226, 226, 226, 1);border-right-color:rgba(226, 226, 226, 1);border-bottom-color:rgba(226, 226, 226, 1);border-left-color:rgba(226, 226, 226, 1);border-bottom-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;font-family:Manrope;}#iixa7u{padding:10px;font-weight:700;font-size:30px;}#iior1j{max-width:1200px;width:90%;align-items:center;}#iolu3z{display:block;}#ieo412{width:100%;display:none;}#ir89yc{flex-direction:column-reverse;justify-content:center;font-size:33px;align-items:flex-end;}#ihtf{font-family:Inter;color:black;}#iyz0u6{text-align:justify;}@media (max-width: 992px){#ix16d{flex:0 0 30%;}#i4tkr{font-size:80px;line-height:80px;}#im13y{font-size:28px;}#iv2wn{width:120px;}#i2sah{font-size:24px;}#ijnrc{font-size:24px;}#imwy1{flex:0 0 30%;}#i5g8k{flex:0 0 30%;}#itt22{font-size:30px;left:20px;bottom:10px;}#ib9zk{font-size:30px;left:20px;bottom:10px;}#ivdo7{font-size:30px;left:20px;bottom:10px;}#ihsfk{font-size:30px;left:20px;bottom:10px;}}@media (max-width: 768px){.navbar-menu-toggle{display:block;}.navbar-menu-nav{width:100%;flex-direction:column;}.navbar-items-c{display:none;width:100%;}.navbar-burger{display:block;}.navbar-menu{width:100%;}.navbar-menu-link{display:block;}#ix16d{flex:0 0 33%;}#imwy1{flex:0 0 33%;}#i5g8k{flex:0 0 33%;}#i57k0v{font-size:18px;}#i1xwm{font-size:18px;}#im1i8g{font-size:18px;}#i3lce{font-size:18px;}#iuuay{-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:30px;flex-direction:column;display:block;}#igtgc{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;}#imgw5{padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;}#ixlyq{gap:5px;}#i4q0l{width:100%;}#itt22{font-size:28px;left:20px;bottom:5px;}#ib9zk{font-size:28px;left:20px;bottom:5px;}#ivdo7{font-size:28px;left:20px;bottom:5px;}#ihsfk{font-size:28px;left:20px;bottom:5px;}#iqvw{padding-top:20px;flex-direction:row-reverse;align-items:center;gap:10px;}#ivof{flex-direction:column;}#ifjoh{margin-top:10px;}#i4tkr{text-align:center;}#ie5f{display:flex;flex-direction:column;justify-content:center;align-items:center;}#im13y{font-size:22px;margin-top:0px;}#iv2wn{width:80px;}#ian75{font-size:18px;}#idb68{flex:0 1 auto;}#i2sah{font-size:22px;}#ijnrc{font-size:22px;}#iyavz{flex-direction:column;}#ityzk{justify-content:center;align-items:center;}#ik5ea{justify-content:center;align-items:center;}#ifeve{flex:0 1 auto;}#iaao4{flex:0 1 auto;}#ij5ox{gap:5px;margin-top:5px;}#i49hb{gap:5px;margin-top:5px;}}@media (max-width: 480px){#iuuay{-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:24px;margin-bottom:20px;text-align:center;margin-top:0px;}#ik5ea{flex-direction:column;gap:10px;}#iaao4{justify-content:center;}#iyavz{margin-top:20px;}#ixlyq{flex-direction:column;}#ibdtm{flex-direction:column;gap:15px;justify-content:center;align-items:center;text-align:center;}#i8uif{margin-bottom:8px;font-size:32px;}#ij5ox{flex-direction:column;gap:5px;margin-top:5px;}#i49hb{flex-direction:column;gap:5px;margin-top:5px;}#i1bcf{font-size:32px;}#i4tkr{font-size:2.5rem;}#iyp5{padding-top:50px;}#iqvw{flex-direction:column;}#i82o3f{width:25px;height:25px;}#iyeh2{font-size:16px;width:130px;}#isv5y{font-size:16px;}#i2fjb{font-size:16px;text-align:center;}#ifjoh{width:auto;padding-top:0px;padding-right:0px;padding-bottom:0px;}#iixa7u{font-size:24px;}#ihsfk{font-size:22px;}#ivdo7{font-size:22px;}#ib9zk{font-size:22px;}#itt22{font-size:22px;}#im13y{font-size:22px;}#iv2wn{margin-right:auto;margin-top:1rem;margin-bottom:1rem;}}
+// Portfolio Web Application
+class PortfolioApp {
+    constructor() {
+        this.init();
+    }
+
+    init() {
+        this.setupMobileMenu();
+        this.setupSmoothScrolling();
+        this.setupScrollEffects();
+        this.setupPortfolioFilter();
+        this.setupFormHandling();
+        this.setupScrollToTop();
+        this.setupLanguageSwitch();
+        this.setupAnimations();
+        
+        console.log('Portfolio aplikace úspěšně načtena! 🚀');
+    }
+
+    // ==========================================
+    // MOBILE MENU
+    // ==========================================
+    setupMobileMenu() {
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        const links = navLinks.querySelectorAll('a');
+
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                menuToggle.classList.toggle('active');
+            });
+
+            // Zavření menu po kliknutí na odkaz
+            links.forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    menuToggle.classList.remove('active');
+                });
+            });
+
+            // Zavření menu při kliknutí mimo
+            document.addEventListener('click', (e) => {
+                if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
+                    navLinks.classList.remove('active');
+                    menuToggle.classList.remove('active');
+                }
+            });
+        }
+    }
+
+    // ==========================================
+    // SMOOTH SCROLLING
+    // ==========================================
+    setupSmoothScrolling() {
+        const links = document.querySelectorAll('a[href^="#"]');
+        
+        links.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href');
+                
+                if (targetId === '#') return;
+                
+                const targetSection = document.querySelector(targetId);
+                if (targetSection) {
+                    const headerHeight = 80;
+                    const targetPosition = targetSection.offsetTop - headerHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    }
+
+    // ==========================================
+    // SCROLL EFFECTS
+    // ==========================================
+    setupScrollEffects() {
+        const header = document.getElementById('header');
+        let lastScroll = 0;
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+
+            // Header background
+            if (currentScroll > 100) {
+                header.style.background = 'rgba(255, 255, 255, 0.98)';
+                header.style.backdropFilter = 'blur(10px)';
+                header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.15)';
+            } else {
+                header.style.background = '#ffffff';
+                header.style.backdropFilter = 'none';
+                header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+            }
+
+            // Aktivní odkaz v navigaci
+            this.updateActiveNavLink();
+
+            // Scroll to top button
+            this.toggleScrollToTop(currentScroll);
+
+            lastScroll = currentScroll;
+        });
+    }
+
+    updateActiveNavLink() {
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-links a');
+        
+        let currentSection = '';
+        
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 100;
+            const sectionHeight = section.clientHeight;
+            
+            if (window.pageYOffset >= sectionTop && 
+                window.pageYOffset < sectionTop + sectionHeight) {
+                currentSection = section.getAttribute('id');
+            }
+        });
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${currentSection}`) {
+                link.classList.add('active');
+            }
+        });
+    }
+
+    // ==========================================
+    // PORTFOLIO FILTER
+    // ==========================================
+    setupPortfolioFilter() {
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                const filterValue = button.getAttribute('data-filter');
+
+                portfolioItems.forEach(item => {
+                    if (filterValue === 'all') {
+                        item.style.display = 'block';
+                        setTimeout(() => {
+                            item.style.opacity = '1';
+                            item.style.transform = 'scale(1)';
+                        }, 10);
+                    } else {
+                        const categories = item.getAttribute('data-category');
+                        
+                        if (categories && categories.includes(filterValue)) {
+                            item.style.display = 'block';
+                            setTimeout(() => {
+                                item.style.opacity = '1';
+                                item.style.transform = 'scale(1)';
+                            }, 10);
+                        } else {
+                            item.style.opacity = '0';
+                            item.style.transform = 'scale(0.8)';
+                            setTimeout(() => {
+                                item.style.display = 'none';
+                            }, 300);
+                        }
+                    }
+                });
+            });
+        });
+    }
+
+    // ==========================================
+    // FORM HANDLING
+    // ==========================================
+    setupFormHandling() {
+        const contactForm = document.getElementById('contactForm');
+        
+        if (contactForm) {
+            contactForm.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                await this.handleFormSubmit(contactForm);
+            });
+        }
+    }
+
+    async handleFormSubmit(form) {
+        const submitButton = form.querySelector('button[type="submit"]');
+        const originalText = submitButton.textContent;
+        const formData = new FormData(form);
+        
+        // Validace
+        const name = formData.get('name');
+        const email = formData.get('email');
+        const subject = formData.get('subject');
+        const message = formData.get('message');
+        
+        if (!name || !email || !subject || !message) {
+            this.showNotification('Prosím vyplňte všechna povinná pole', 'error');
+            return;
+        }
+        
+        if (!this.validateEmail(email)) {
+            this.showNotification('Prosím zadejte platnou emailovou adresu', 'error');
+            return;
+        }
+
+        try {
+            // Loading state
+            submitButton.innerHTML = '<div class="loading"></div>';
+            submitButton.disabled = true;
+
+            // Simulace odeslání (zde by byla skutečná API request)
+            await new Promise(resolve => setTimeout(resolve, 2000));
+
+            this.showNotification(
+                '✅ Zpráva úspěšně odeslána! Ozveme se vám co nejdříve.',
+                'success'
+            );
+            
+            form.reset();
+
+        } catch (error) {
+            this.showNotification(
+                '❌ Chyba při odesílání zprávy. Zkuste to prosím znovu.',
+                'error'
+            );
+            console.error('Form submission error:', error);
+        } finally {
+            submitButton.textContent = originalText;
+            submitButton.disabled = false;
+        }
+    }
+
+    validateEmail(email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(email);
+    }
+
+    // ==========================================
+    // SCROLL TO TOP
+    // ==========================================
+    setupScrollToTop() {
+        // Create button if it doesn't exist
+        let scrollButton = document.querySelector('.scroll-top');
+        
+        if (!scrollButton) {
+            scrollButton = document.createElement('button');
+            scrollButton.className = 'scroll-top';
+            scrollButton.innerHTML = '↑';
+            scrollButton.setAttribute('aria-label', 'Zpět nahoru');
+            document.body.appendChild(scrollButton);
+        }
+
+        scrollButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+
+    toggleScrollToTop(scrollY) {
+        const scrollButton = document.querySelector('.scroll-top');
+        if (scrollButton) {
+            if (scrollY > 400) {
+                scrollButton.style.display = 'flex';
+                scrollButton.style.opacity = '1';
+            } else {
+                scrollButton.style.opacity = '0';
+                setTimeout(() => {
+                    if (window.pageYOffset <= 400) {
+                        scrollButton.style.display = 'none';
+                    }
+                }, 300);
+            }
+        }
+    }
+
+    // ==========================================
+    // LANGUAGE SWITCH
+    // ==========================================
+    setupLanguageSwitch() {
+        const langButtons = document.querySelectorAll('.lang-btn');
+        
+        langButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                langButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                
+                const lang = button.getAttribute('data-lang');
+                this.changeLanguage(lang);
+            });
+        });
+    }
+
+    changeLanguage(lang) {
+        // Zde by byla implementace změny jazyka
+        console.log(`Změna jazyka na: ${lang}`);
+        this.showNotification(
+            lang === 'cs' ? 'Jazyk změněn na češtinu' : 'Language changed to English',
+            'success'
+        );
+    }
+
+    // ==========================================
+    // ANIMATIONS
+    // ==========================================
+    setupAnimations() {
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                    
+                    // Animace skill barů
+                    if (entry.target.classList.contains('skill-item')) {
+                        const progress = entry.target.querySelector('.skill-progress');
+                        if (progress) {
+                            const width = progress.style.width;
+                            progress.style.width = '0';
+                            setTimeout(() => {
+                                progress.style.width = width;
+                            }, 200);
+                        }
+                    }
+                }
+            });
+        }, observerOptions);
+
+        // Elementy k pozorování
+        const animatedElements = document.querySelectorAll(`
+            .service-card,
+            .portfolio-item,
+            .process-step,
+            .skill-item,
+            .contact-item
+        `);
+        
+        animatedElements.forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            observer.observe(el);
+        });
+    }
+
+    // ==========================================
+    // NOTIFICATION SYSTEM
+    // ==========================================
+    showNotification(message, type = 'info') {
+        // Odstranit existující notifikaci
+        const existingNotification = document.querySelector('.notification');
+        if (existingNotification) {
+            existingNotification.remove();
+        }
+
+        // Vytvořit novou notifikaci
+        const notification = document.createElement('div');
+        notification.className = `notification notification-${type}`;
+        notification.textContent = message;
+
+        // Styly
+        const bgColors = {
+            success: '#28a745',
+            error: '#dc3545',
+            info: '#667eea'
+        };
+
+        Object.assign(notification.style, {
+            position: 'fixed',
+            top: '20px',
+            right: '20px',
+            background: bgColors[type] || bgColors.info,
+            color: 'white',
+            padding: '1rem 1.5rem',
+            borderRadius: '10px',
+            boxShadow: '0 10px 30px rgba(0, 0, 0, 0.2)',
+            zIndex: '10000',
+            transform: 'translateX(400px)',
+            transition: 'transform 0.3s ease',
+            maxWidth: '400px',
+            fontWeight: '500'
+        });
+
+        document.body.appendChild(notification);
+
+        // Animace vstupu
+        setTimeout(() => {
+            notification.style.transform = 'translateX(0)';
+        }, 100);
+
+        // Automatické odstranění
+        setTimeout(() => {
+            notification.style.transform = 'translateX(400px)';
+            setTimeout(() => {
+                if (notification.parentNode) {
+                    notification.remove();
+                }
+            }, 300);
+        }, 5000);
+    }
+}
+
+// ==========================================
+// INICIALIZACE
+// ==========================================
+document.addEventListener('DOMContentLoaded', () => {
+    new PortfolioApp();
+});
+
+// Service Worker registrace (pro PWA)
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./service-worker.js')
+            .then(reg => console.log('Service Worker registered'))
+            .catch(err => console.log('Service Worker registration failed'));
+    });
+}
